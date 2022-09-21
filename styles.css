@@ -1,4 +1,4 @@
-.heback {
+    .heback {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -56,5 +56,12 @@ img{
 
 .date {
     text-align: center;
+}
+
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
