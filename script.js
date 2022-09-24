@@ -14,4 +14,3 @@ let uptodate = new Date (document.lastModified);
 let element = document.querySelector('.date');
 element.style.color = 'white'
 element.textContent += `Last updated: ${formatDate(uptodate)} ${uptodate.getHours() === 0 ? uptodate.getHours() + '0' : uptodate.getHours() }:${uptodate.getMinutes()}:${uptodate.getSeconds()}`;
-console.log(element);
