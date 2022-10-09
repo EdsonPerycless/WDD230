@@ -1,0 +1,19 @@
+#nav{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: right;
+    margin-right: 450px;
+    gap: 24px;
+
+    position: absolute;
+    width: 88px;
+    height: 35px;
+    left: 926px;
+    top: 20px;
+}
+
+.buttons{
+    max-width:max-content
+}

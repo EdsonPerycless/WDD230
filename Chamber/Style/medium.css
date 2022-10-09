@@ -1,0 +1,36 @@
+@media (min-width:426px) and (max-width: 768px) {
+    body {
+        height: auto;
+    }
+
+    .navbar-desktop{
+        display: none !important;
+    }
+
+    .main-container {
+        flex-direction: column;
+    }
+
+    .colum-1 {
+        width: 100% !important;
+        order: 3;
+    }
+
+    .colum-2 {
+        flex-direction: column;
+        width: 100% !important;
+        margin: 16px 0 !important;
+        order: 1;
+    }
+
+    .colum-3 {
+        flex-direction: row !important;
+        width: 100% !important;
+        order: 2;
+    }
+
+    .weather-join {
+        display: flex;
+        gap: 16px;
+    }
+}

@@ -1,0 +1,100 @@
+
+@media (min-width: 769px) {
+    main {
+        height: 100%;
+    }
+
+    .main-container {
+        flex-direction: row;
+    }
+    
+    .colum-1 {
+        width: 25%;
+        justify-content: space-between;
+        margin: 16px 0;
+        gap: 16px;
+        order: 1;
+    }
+    
+    .colum-2 {
+        width: 50%;
+        justify-content: space-between;
+        margin: 16px 16px;
+        gap: 16px;
+        order: 2;
+    }
+    
+    .colum-3 {
+        width: 25%;
+        justify-content: space-between;
+        margin: 16px 0;
+        gap: 16px;
+        order: 3;
+    }
+    
+    .event {
+        height: 25%;
+    }
+    
+    .weather-join {
+        gap: 16px;
+        display: flex;
+        flex-direction: column;
+        height: 80%;
+        justify-content: space-evenly;
+    }
+
+    .hero {
+        height: 60%;
+    }
+    
+    .news {
+        height: 35%;
+    }
+    
+    .event,
+    .weather,
+    .join,
+    .hero,
+    .news,
+    .spotlight1,
+    .spotlight2,
+    .spotlight3 {
+        overflow: auto;
+    }
+
+    .navbar {
+        display: none !important;
+    }
+
+    .navbar-desktop {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        margin: 0 16px;
+    }
+
+    .navbar-desktop .navbar-brand {
+        margin: 0;
+    }
+
+    .navbar-brand span{
+        font-size: 24px;
+    }
+
+    .navbar-desktop .navbar-nav {
+        flex-direction: row;
+        gap: 24px;
+        margin: 0 !important;
+    }
+
+    .navbar-desktop .nav-social {
+        display: flex;
+        gap: 16px;
+        transition: all 0.5s ease-in;
+    }
+
+    .navbar-desktop .nav-social a:hover {
+        transform: scale(1.1);
+    }
+}
