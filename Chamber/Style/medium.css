@@ -23,6 +23,10 @@
         order: 1;
     }
 
+    .imagem{
+        max-width: fit-content;
+    }
+
     .colum-3 {
         flex-direction: row !important;
         width: 100% !important;

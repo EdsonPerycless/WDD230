@@ -97,4 +97,17 @@
     .navbar-desktop .nav-social a:hover {
         transform: scale(1.1);
     }
+    #clr{
+        max-width: 100%;
+    }
+    #btn{
+        border-radius: 6px;
+    }
+    .imagem{
+        max-width: 60px;
+    }
+    img{
+        max-width: 5000px;
+        max-height: 150px;
+    }
 }

@@ -1,6 +1,7 @@
-:root {
+:root{
   --headerHeight: 98px;
   --footerHeight: 98px;
+
 }
 
 body {
@@ -110,6 +111,7 @@ ul li{
 .date {
     text-align: center;
 }
+
 
 
 /* INICIO MENU HAMBUR */
@@ -299,4 +301,12 @@ ul li{
 .navbar-toggler:hover {
   border: none !important;
   outline: none;
+}
+
+#btn{
+  border-radius: 6px;
+}
+
+.imagem{
+  max-width: fit-content;
 }
