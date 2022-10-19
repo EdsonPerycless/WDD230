@@ -1,7 +1,6 @@
 :root{
   --headerHeight: 98px;
   --footerHeight: 98px;
-
 }
 
 body {
@@ -309,4 +308,12 @@ ul li{
 
 .imagem{
   max-width: fit-content;
+}
+
+.banner {
+  background: linear-gradient(90.42deg, #00B5AA 49.64%, #051F1D 154.99%);
+  max-width: 100%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
