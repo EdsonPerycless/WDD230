@@ -40,8 +40,10 @@
     .banner {
         background: linear-gradient(90.42deg, #00B5AA 49.64%, #051F1D 154.99%);
         max-width: 100%; 
+        height: 40px;
         display: flex;
         align-items: center;
         justify-content: center;
+        color: aliceblue;
       }
 }

@@ -34,11 +34,12 @@ function formatDate(date) {
   ].join('/');
 }
 
-window.onload = function(){ 
+window.onload = function(){
   if (uptodate2.getDay() == 1 || uptodate2.getDay() == 2) {
     let banner = document.getElementsByClassName("banner")[0]; 
     console.log(banner);
-    banner.innerHTML = `<span> Participate of our event onm Wednesday at 7:00pm </span> `;
+    banner.innerHTML = `<span> Participate of our event on Wednesday at 7:00pm </span> `;
   }
 }
 console.log(uptodate2.getDay());
+
