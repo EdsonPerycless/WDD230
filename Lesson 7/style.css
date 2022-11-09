@@ -1,13 +1,22 @@
-.main{
+.mainimg{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    background: url(backgroundimage.jpg)
-    
 }
-
 
 img{
     max-width: 100px;
     align-items: center;
+}
+
+.backg{
+    max-width: 100%;
+    max-height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+body{
+    background: linear-gradient(120.41deg, #000E8C 0.41%, #14219A 0.42%, #6E1ED7 93.76%);
 }
