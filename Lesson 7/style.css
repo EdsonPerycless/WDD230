@@ -1,0 +1,13 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(backgroundimage.jpg)
+    
+}
+
+
+img{
+    max-width: 100px;
+    align-items: center;
+}
