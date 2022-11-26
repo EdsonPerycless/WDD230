@@ -46,4 +46,15 @@
         justify-content: center;
         color: aliceblue;
       }
+      .hero-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 24px;
+      }
+      .event{
+        background: linear-gradient(90.42deg, #00B5AA 49.64
+      }
+
 }

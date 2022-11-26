@@ -302,8 +302,14 @@ ul li{
   outline: none;
 }
 
-#btn{
-  border-radius: 6px;
+.butn{
+  border-radius: 36px !important;
+  border: solid 2px !important;
+}
+
+.butn-hero {
+  border: none;
+  background-color: #00B5AA;
 }
 
 .imagem{
@@ -317,4 +323,15 @@ ul li{
   align-items: center;
   justify-content: center;
   color: aliceblue;
+}
+
+.hero-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.hero{
+  border-color:linear-gradient(90.42deg, #00B5AA 49.64%, #051F1D 154.99%); ;
 }
