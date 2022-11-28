@@ -60,7 +60,7 @@
     .spotlight1,
     .spotlight2,
     .spotlight3 {
-
+        overflow: none;
     };
 
     .navbar {
